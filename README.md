@@ -16,8 +16,14 @@ It also includes the complete sample exposed as an example in memory of some dat
 This directory provides the Vivado/Xilinx SDK project of the designed SoC, targeting the Zedboard platform. It also includes the IP repository containing the custom IP cores used in the project. 
 
 ## Building the Vivado Project
-To build the project, clone the repository, open the Vivado GUI and move to the Vivado directory inside the root folder. 
-To do that, you can use the cd command in the TCL console.
+Project and scripts have been creating targeting the following boards and Vivado/Vitis IDE versions.
+
+| Part | Vivado version |
+| --- | --- |
+| Zedboard | 2017.4 |
+
+To build the project, clone the repository, open the Vivado GUI and move to "Vivado" directory inside the root folder. 
+To do so, you can use the cd command in the TCL console.
 Subsequently, run the following TCL command in the TCL console: 
 ```tcl
 source scripts/zedboard_UAHOY_backend.tcl

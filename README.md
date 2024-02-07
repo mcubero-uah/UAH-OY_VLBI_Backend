@@ -1,6 +1,8 @@
 # UAH-OY VLBI Backend
 This repository provides the source code of the FPGA-based VLBI digital Backend proposed in the Master's Degree Thesis [Design of an FPGA-based Digital Backend with VDIF formatter for radio astronomy signals](https://ebuah.uah.es/dspace/handle/10017/58428).
 
+![](img/general_bd.png)
+
 ## Repository structure
 The repository is structured as follows
 
@@ -27,10 +29,10 @@ To run the provided bare-metal software application, generate the bitstream of t
 If you use this design, cite the work: 
 ```bibtex
 @book{CuberoVacas2023,
-  title={Diseño de un Backend digital basado en un dispositivo FPGA con formateador VDIF para señales de radioastronomía},
-  author={Cubero Vacas, Miguel},
-  year={2023},
-publisher = "Universidad de Alcalá",
+	title={Diseño de un Backend digital basado en un dispositivo FPGA con formateador VDIF para señales de radioastronomía},
+	author={Cubero Vacas, Miguel},
+	year={2023},
+	publisher = "Universidad de Alcalá",
 }
 
 ```
